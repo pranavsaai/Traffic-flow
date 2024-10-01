@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Login - My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling.css" />
+</head>
+<body>
+    <div class="section-login">
+        <div class="container">
+            <h1 class="left-self">Login</h1>
+            <span class="description my left-self">Welcome to our website</span>
+            <button class="btn">
+                Sign in with Google <i class="bi bi-google"></i>
+            </button>
+            <button class="btn">
+                Sign in with Facebook <i class="bi bi-facebook"></i>
+            </button>
+            <span class="description my">or login with your credentials.</span>
+            <form id="loginForm">
+                <input class="input-field" type="email" placeholder="Email" id="email" required />
+                <input class="input-field" type="password" placeholder="Password" id="password" required />
+                <button class="btn btn-login my" type="submit">Login</button>
+            </form>
+            <span class="description my">Don't have an account? <a href="signup.html">Sign Up Now</a></span>
+        </div>
+    </div>
+    <img src="bg.jpg" alt="" class="hero-img" />
+    <script src="login.js"></script>
+</body>
+</html>
